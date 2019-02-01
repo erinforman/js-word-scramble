@@ -34,3 +34,18 @@
 
 // Create a function that takes an array of words and returns a map with the
 // scrambled words as the keys and the original word as the values.
+const greeting =  "Hello"
+
+const greetingSplit = greeting.split('')
+
+const greetingMerge = greeting.join('')
+
+function returnFlavor2(color, map){
+if (map.hasOwnProperty(color)) {
+  console.log(map[color])
+}
+else {console.log('Sorry, that color doesn\'t have a flavor');
+}
+}
+
+
